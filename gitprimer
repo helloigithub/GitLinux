@@ -1,2 +1,17 @@
 					GIT PRIMER
 
+git init
+git config --global user.name ""
+git config --global user.mail ""
+git add gitprimer
+git commit -m "add a file"
+git diff
+git diff HEAD --  gitprimer
+git status
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reflog
+git checkout -- gitprimer
+git reset HEAD gitprimer
+git rm gitprimer
