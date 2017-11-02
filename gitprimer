@@ -18,4 +18,9 @@ git rm gitprimer
 ssh-keygen -t rsa -C "mail"
 git remote add origin git@github.com:id/item
 git push -u origin master
-
+git branch
+git branch name
+git checkout name
+git checkout -b name
+git merge name
+git branch -d name
